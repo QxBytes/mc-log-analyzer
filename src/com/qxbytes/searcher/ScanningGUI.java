@@ -40,6 +40,7 @@ public class ScanningGUI {
 
 	/**
 	 * Launch the application.
+	 * @author QxBytes
 	 */
 	public static void main(String[] args) {
 		try {
@@ -266,7 +267,7 @@ public class ScanningGUI {
 		
 		JTextArea txtrCreatedByQxbytes = new JTextArea();
 		txtrCreatedByQxbytes.setEditable(false);
-		txtrCreatedByQxbytes.setText("Created by QxBytes\r\nVersion 1.0.0\r\nDo Not Distribute.\r\nSoftware provided AS-IS with No Warranties.\r\nIf you misuse the software I am not responsible for any damages!\r\n\r\nKnown Issues:\r\nIf you don't know charset leave it blank\r\nIf you don't know location leave it blank (User/AppData/Roaming/.minecraft/logs)\r\nYou must enter a list separated by commas\r\nLarge files take a very long time and will be skipped");
+		txtrCreatedByQxbytes.setText("Created by QxBytes\r\nVersion 1.0.0\r\nGNU General Public License 3.0.\r\nSoftware provided AS-IS with No Warranties.\r\nIf you misuse the software I am not responsible for any damages!\r\n\r\nKnown Issues:\r\nIf you don't know charset leave it blank\r\nIf you don't know location leave it blank (User/AppData/Roaming/.minecraft/logs)\r\nYou must enter a list separated by commas\r\nLarge files take a very long time and will be skipped");
 		panel_5.add(txtrCreatedByQxbytes, BorderLayout.CENTER);
 		
 		
